@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Dart static site generator. All in one file, all in dart, all a little jank
+
+- entrypoint in `bin/`
+- library code in `lib/`
+- example unit test in `test/`
