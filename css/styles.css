@@ -1,0 +1,66 @@
+/* General styles */
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Code formatting */
+/* pre, code {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+  padding: 15px;
+  overflow-x: auto;
+}
+
+code {
+  padding: 2px 4px;
+} */
+
+/* Blockquote formatting */
+blockquote {
+  font-family: 'Baskerville', 'Goudy Old Style', 'Palatino', serif;
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-style: italic;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/* Center images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
